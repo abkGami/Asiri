@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Asiri",
+    "slug": "Asiri",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "templateexpobasic",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "assets": [
+      "./assets/fonts"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.abkgami.asiri"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "dark": {
+            "backgroundColor": "#000000",
+            "image": "./assets/images/splash-icon.png"
+          },
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain"
+        }
+      ],
+      "expo-web-browser",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "56b143c3-5ad4-4394-acbe-6ece6ab4047a"
+      }
+    }
+  }
+}
