@@ -38,3 +38,4 @@ yarn-error.*
 
 app-example
 tmp/
+android/gradle/wrapper/gradle-8.13-bin.zip
